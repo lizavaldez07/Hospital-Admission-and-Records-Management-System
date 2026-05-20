@@ -10,4 +10,4 @@ Let the Hospital Admission System be your trusted guide toward better-organized,
 
 ## ER Diagram
 
-![Hospital Management ER Diagram](assets/ER-Diagram.png)
+![Hospital Management ER Diagram](assets/ER Diagram.png)
