@@ -7,3 +7,7 @@ Whether it is record-keeping of patients, management of staff assignments, or ev
 We all know the issues that have been happening in a hospital setting: the problems of maintaining accuracy and efficiency. That is why our system will be able to give fast access to critical information, robust data management tools, and secure workflows that ensure the integrity of sensitive records. Adding new patients, updating staff profiles, or even room allocations will be easy for you in the Hospital Admission System because it will make every step easy for you to focus on what matters: delivering quality care.
 
 Let the Hospital Admission System be your trusted guide toward better-organized, more efficient, and patient-friendly hospital management. Enjoy an operational future with better care facilitated by a system that supports your vision of excellence. Here starts your road to better health management!
+
+## ER Diagram
+
+![Hospital Management ER Diagram](assets/er-diagram.png)
