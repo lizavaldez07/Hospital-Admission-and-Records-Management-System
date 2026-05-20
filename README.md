@@ -20,14 +20,26 @@ The system consists of 4 major sections: Patients, Registrar, Nurse, and Doctor.
 
 The system validates data to ensure the proper inputting of data. In the process, deleting actions require user confirmation to prevent critical data loss inadvertently. The intuitive interface and clear workflow allow each user to focus on their role and responsibilities, which means efficient hospital management. Whether it is to view health information by a patient, update patient care information by a nurse, manage treatments by a doctor, or oversee a hospital running by a registrar, it all happens securely and efficiently as data is handled.
 
-## Back-end / Systems Administrator Window Interface
-A hospital admission system's back-end/system administrator interface will provide the administrator with complete control over patient admissions, staff records, and room management given that they are knowledgeable of its password. The interface is split into five primary sections: Patients, Registrar, Nurse, Doctor, and Room. Each section provides essential tools for the efficient management of hospital operations. Functions such as Insert/Add, Update/Edit, and Delete can be accessed across all tabs to allow flexibility in handling records.
-
 The Patients section provides the administrator with patient information management tools, such as personal information, date and time of admission, and medical history. Users can browse records, input new patients using a form that contains detailed input requirements, update existing records, or delete records as necessary. The Registrar section deals specifically with the hospital's administration staff, who handle admissions. The tab offers access to registrar records, including personal information, station number, mode of payment, shifts assigned, patient ID, nurse ID, and Room Number. Admins can add new registrars' records, update existing ones, or delete them when necessary.
+
+![Hospital Management ER Diagram](assets/files/UI/PatientAdmission.png)
+![Hospital Management ER Diagram](assets/files/UI/Registrar.png)
 
 Nurse section is focused on the administration and management of the nurse staff profiles and their assigned station number. A record list of nurses, along with specialty and assigned patients and doctors, appears on the screen and also adds new staff or edits profiles or deletes records respectively. In the same line, the Doctor section is doctors' profile administration, in which managers manage doctors' personal information, station number, and specialty, adding new doctors and updating existing profiles by deleting the record, as shown below.
 
+![Hospital Management ER Diagram](assets/files/UI/DoctorRegistration.png)
+![Hospital Management ER Diagram](assets/files/UI/NurseRegistration.png)
+
 Room management is located in the Room section, where administrators can view the room number and availability. This includes looking at the room type, whether it's emergency or non-emergency. It may also add rooms to the system or update existing information, and a list of unused rooms shall be deleted. Administrators can accurately search, filter, and manage complete admission records across the linked data.
+
+![Hospital Management ER Diagram](assets/files/UI/HospitalRoom.png)
+
+## Back-end / Systems Administrator Window Interface
+A hospital admission system's back-end/system administrator interface will provide the administrator with complete control over patient admissions, staff records, and room management given that they are knowledgeable of its password. The interface is split into five primary sections: Patients, Registrar, Nurse, Doctor, and Room. Each section provides essential tools for the efficient management of hospital operations. Functions such as Insert/Add, Update/Edit, and Delete can be accessed across all tabs to allow flexibility in handling records.
+
+![Hospital Management ER Diagram](assets/files/UI/RegistrarRecords-Login.png)
+![Hospital Management ER Diagram](assets/files/UI/HospitalRecords1.png)
+![Hospital Management ER Diagram](assets/files/UI/HospitalRecords2.png)
 
 All the tabs have simple navigation features through instant search bars in record lookups, and there are validation checks that ensure proper formatting by forcing such formatting on the data either when inserting it or editing it. This interface has enabled the smooth management of hospitals since it protects the integrity and security of sensitive information.
 
